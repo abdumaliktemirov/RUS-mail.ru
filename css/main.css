@@ -19,7 +19,6 @@ body {
 
 .wrapper {
     margin: 0 auto;
-    margin-bottom: 1000px;
 }
 
 .container {
@@ -203,11 +202,12 @@ body {
     color: #FFFFFF;
 }
 
-.microwave-info__title p {
+.microwave-info__title .microwave-info__desc {
     font-weight: 600;
     font-size: 22px;
     line-height: 30px;
     color: #FFFFFF;
+    margin-bottom: 32px;
 }
 
 .microwave-info__title a {
@@ -218,8 +218,13 @@ body {
     font-size: 18px;
     line-height: 35px;
     color: rgba(255, 255, 255, 0.95);
-    margin-top: 36px;
+    margin-top: 50px;
 }
+.microwave-info__desc{
+    max-width: 505px;
+}
+
+
 
 /* Offers seris */
 .offers-wrap {
