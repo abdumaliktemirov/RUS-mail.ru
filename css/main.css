@@ -220,7 +220,8 @@ body {
     color: rgba(255, 255, 255, 0.95);
     margin-top: 50px;
 }
-.microwave-info__desc{
+
+.microwave-info__desc {
     max-width: 505px;
 }
 
@@ -509,4 +510,64 @@ body {
     line-height: 20px;
     text-align: center;
     color: #FFFFFF;
+}
+
+/* !! Mediya !! */
+
+@media (max-width: 1400px) {
+    .wrapper {
+        padding: 0 20px 0 20px;
+    }
+
+    /* Header */
+    .microwave-wrap__info {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
+
+    .footer-wrap {
+        padding: 0 20px;
+    }
+
+    #search {
+        max-width: 60%;
+        transform: translateX(30px);
+    }
+
+    .header-center__search button {
+        display: inline-block;
+        transform: translateX(-100px);
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .offers-wrap__catalogs {
+        max-width: 60%;
+        width: 260px;
+        height: 406px;
+        background: #FFFFFF;
+        border-radius: 15px;
+    }
+
+    .offers-wrap__product img {
+        max-width: 60%;
+    }
+
+    .offers-product__info {
+        max-width: 80%;
+    }
+
+    .offers-product__btn button {
+        max-width: 100px;
+    }
+
+    .offers-product__btn img {
+        transform: translateX(-10px);
+    }
+
+
 }
