@@ -47,7 +47,7 @@
     border-bottom: solid 2px #1FA4AC;
 }
 
-/* left */
+/* left start */
 .prodakt-main__left {
     max-width: 350px;
 }
@@ -191,8 +191,8 @@ input[type="range"]::-moz-range-thumb {
     line-height: 35px;
     color: #1E1E1E;
 }
+/* left end */
 
-/* ------- */
 .switch {
     display: flex;
     align-items: center;
@@ -268,7 +268,6 @@ input:checked+.slider-on:before {
     margin-bottom: 14px;
 }
 
-/* 1111 */
 .info-volume__title {
     font-weight: 600;
     font-size: 16px;
@@ -370,7 +369,7 @@ input[type="range"]::-moz-range-thumb {
     color: #1FA4AC;
 }
 
-/* right */
+/* right start*/
 .prodakt-main__right {
     max-width: 1150px;
 
@@ -379,6 +378,8 @@ input[type="range"]::-moz-range-thumb {
 .prodakt-main {
     display: flex;
 }
+/* right end*/
+
 
 /* Offers seris */
 .offers-wrap {
@@ -516,4 +517,28 @@ input[type="range"]::-moz-range-thumb {
 
 .offers-wrap {
     margin-bottom: 72px;
+}
+
+/* Technique seris */
+.techniqur-wrap__title h1 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+    color: #1FA4AC;
+    text-align: center;
+}
+
+.techniqur-text p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25px;
+    color: #1E1E1E;
+}
+
+.techniqur-text b {
+    display: flex;
+}
+
+.techniqur-text {
+    margin-bottom: 80px;
 }
