@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+a {
+    /* display: inline-block; */
+    color: inherit;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Gilroy';
+    background: #F5F5F5;
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+/* Microwave seris */
+.microwave-wrap {
+    margin-top: 49.5px;
+}
+
+.microwave-wrap__info {
+    background-image: url(../image/bacgroun-2.png), url(../image/Mask-baground.png);
+    background-repeat: no-repeat, no-repeat;
+    width: 1400px;
+    height: 460px;
+}
+
+.microwave-info__title {
+    margin-left: 689px;
+    padding-top: 80px;
+}
+
+.microwave-info__title h1 {
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 50px;
+    color: #FFFFFF;
+}
+
+.microwave-info__title .microwave-info__desc {
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.microwave-info__title a {
+    padding: 16px 47px;
+    background: #D60B0B;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 35px;
+    color: rgba(255, 255, 255, 0.95);
+    margin-top: 50px;
+}
+
+.microwave-info__desc {
+    max-width: 505px;
+}
+
+
+
+/* Offers seris */
+.offers-wrap {
+    margin-top: 71px;
+}
+
+.offers-wrap__title {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+    color: #1FA4AC;
+    margin-bottom: 26px;
+}
+
+.offers-wrap__catalogs-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offers-wrap__catalogs {
+    width: 335px;
+    height: 506px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+}
+
+.offers-wrap__catalog {
+    padding: 31px 20px;
+    margin: 31px 20px;
+}
+
+.offers-wrap__product img {
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.offers-product__info h5 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+
+.product-mach1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    color: #404040;
+    margin-right: 15px;
+}
+
+.product-mach2 {
+    color: #6E6E6E;
+    text-decoration: line-through;
+    font-weight: 500;
+}
+
+.offers-product__btn {
+    display: flex;
+    align-items: center;
+    margin-top: 21px;
+}
+
+.offers-product__btn button {
+    padding: 10px 32px;
+    background: #D60B0B;
+    border-radius: 30px;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.offers-product__btn img {
+    color: #999999;
+    margin: 0 27px 0 21px;
+}
+
+.offers-product__btn .bars {
+    height: 1.5px;
+    width: 12px;
+    position: relative;
+    background: #999999;
+    display: inline-block;
+    transform: rotate(270deg)
+}
+
+.offers-product__btn .bars::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 1.5px;
+    background: #999999;
+    top: -7px;
+}
+
+.offers-product__btn .bars::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 18px;
+    height: 1.3px;
+    background: #999999;
+    bottom: -7px;
+}
+
+/* Popular seris */
+.popular-wrap__title h1 {
+    margin-top: 79px;
+    margin-bottom: 41px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+    color: #1FA4AC;
+}
+
+.popular-wrap__functions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-wrap__functions button {
+    width: 217px;
+    height: 75px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 21px 9px 18px;
+    text-align: left;
+}
+
+/* Catalog seris */
+.catalog-wrap {
+    margin-top: 79px;
+    margin-bottom: 29px;
+}
+
+.catalog-wrap__titles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.catalog-wrap__title h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 35px;
+    color: #1FA4AC;
+    margin-bottom: 29px;
+}
+
+.catalog-title__categories a {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #1E1E1E;
+    margin-bottom: 10px;
+}
+
+.catalog-info__categori a {
+    display: block;
+}
+
+.catalog-info__categori a {
+    padding-top: 10px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    color: #404040;
+}
+
+.catalog-info__categori-btn a {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 30px;
+    color: #1FA4AC;
+}
+
+.catalog-wrap__titles-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+
+/* !! Mediya !! */
+
+@media (max-width: 1400px) {
+    .wrapper {
+        padding: 0 20px 0 20px;
+    }
+
+    /* Header */
+    .microwave-wrap__info {
+        max-width: 100%;
+    }
+
+    .footer {
+        max-width: 100%;
+    }
+
+    .footer-wrap {
+        padding: 0 20px;
+    }
+
+    #search {
+        max-width: 60%;
+        transform: translateX(30px);
+    }
+
+    .header-center__search button {
+        display: inline-block;
+        transform: translateX(-100px);
+    }
+}
+
+@media (max-width: 1200px) {
+
+    .offers-wrap__catalogs {
+        max-width: 60%;
+        width: 260px;
+        height: 406px;
+        background: #FFFFFF;
+        border-radius: 15px;
+    }
+
+    .offers-wrap__product img {
+        max-width: 60%;
+    }
+
+    .offers-product__info {
+        max-width: 80%;
+    }
+
+    .offers-product__btn button {
+        max-width: 100px;
+    }
+
+    .offers-product__btn img {
+        transform: translateX(-10px);
+    }
+
+
+}
